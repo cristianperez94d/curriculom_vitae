@@ -1,0 +1,32 @@
+@page {
+    size: letter portrait;
+    margin: 0;
+}
+@media print {
+    .alerta-imprimir{
+        display: none;
+    }
+}
+body{
+    background-color: #333333;
+}
+.div-lateral-fondo{
+    background-color: #2A3B47;
+}
+.div-contenido-fondo{
+    background-color: #ffffff;
+}
+.borde-inferior{
+    border-bottom: solid;
+    border-color: #2A3B47;
+    border-bottom-width: 3px;
+}
+.text-color-pri{
+    color: #2a3b47;
+}
+.text-color-sec{
+    color: #425d70;
+}
+.text-color-lateral{
+    color: #eff3f6;
+}
